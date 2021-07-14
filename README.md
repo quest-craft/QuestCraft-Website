@@ -13,5 +13,6 @@ QuestCraft and QuestCraft Website is a Community run Project. Contribution to th
 
 ## Credits & Third Party Components
 [Tailwind CSS](https://tailwindcss.com/): CSS —  [MIT License](https://github.com/tailwindlabs/tailwindcss/blob/master/LICENSE)
+
 [Font Awesome](https://fontawesome.com/): Icons —  [CC BY 4.0 License](https://creativecommons.org/licenses/by/4.0/)
 
