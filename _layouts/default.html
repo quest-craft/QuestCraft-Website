@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      {% if page.title %}{{ page.title }} | {% endif %}{{ site.header.name }}
+    </title>
+
+    {% include meta.html %}
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ site.baseurl }}/style.css"
+    />
+
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="{{ site.header.name }}"
+      href="{{ site.baseurl }}/feed.xml"
+    />
+
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  </head>
+
+  <body>
+    <header class="container">
+      {% if site.header.logo %}
+      <a href="{{ site.baseurl }}/" class="site-avatar">
+        <img src="{{ site.header.logo }}" />
+      </a>
+      {% endif %}
+
+      <a href="{{ site.baseurl }}/">{{ site.header.name }}</a>
+
+      <nav>
+        <a href="{{ site.baseurl }}/">Blog</a>
+        <a href="{{ site.baseurl }}/about">About</a>
+        {% if site.download.download-page == true %}
+          <a href="https://github.com/{{site.repo}}/releases">Download</a>
+        {% endif %}
+      </nav>
+    </header>
+
+    <article id="main" role="main" class="container">
+      {{ content }}
+    </article>
+
+    <div class="wrapper-footer">
+      <div class="container">
+        
+        <footer class="footer">
+          
+        </footer>
+
+        <footer class="footer">
+          <div>
+            <a href="{{ site.baseurl }}/privacypolicy">Privacy Policy</a>
+          </div>
+          <div>
+            {% include svg-icons.html %}
+          </div>
+          
+        </footer>
+      </div>
+    </div>
+
+    {% include analytics.html %}
+  </body>
+</html>

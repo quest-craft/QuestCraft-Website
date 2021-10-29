@@ -1,0 +1,338 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>
+            {% if page.title %}{{ page.title }} | {% endif %}{{ site.header.name }}
+        </title>
+        {% include meta.html %}
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="{{ site.baseurl }}/assets/css/noscript.css" /></noscript>
+		<link rel="shortcut icon" type="image/png" href="{{ site.baseurl }}/images/favicon.png"/>
+		<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/tailwind.css" />
+      
+          
+        <!-- Remove Jekyll Pronto as it does not match the website -->
+        <!-- <link
+        rel="stylesheet"
+        type="text/css"
+        href="{{ site.baseurl }}/style.css"
+        /> -->
+    
+        <link
+        rel="alternate"
+        type="application/rss+xml"
+        title="{{ site.header.name }}"
+        href="./feed.xml"
+        />
+		
+		<link
+        rel="stylesheet"
+        href="{{ site.baseurl }}/assets/css/twemoji-awesome.css"
+        />
+
+	</head>
+
+
+	<body class="is-preload">
+		<style>
+			
+			html {
+			scroll-behavior: smooth;
+			}
+		</style>
+		<!-- NavBar -->
+			
+		<nav class="flex inline-flex items-center justify-center w-full">
+			<ul class="inline-flex items space-x-2 py-5">
+				<a href="{{ site.baseurl }}/"><li class="bg-gray-50 text-gray-800 py-1 px-2 border rounded shadow text-sm font-semibold hover:bg-gray-100 "><i class="twa twa-rocket"></i> Home</li></a>
+				<a href="{{ site.baseurl }}/news/"><li class="bg-gray-50 text-gray-800 py-1 px-2 border rounded shadow text-sm font-semibold hover:bg-gray-100 "><i class="twa twa-newspaper"></i> News</li></a>
+				<a href="{% if site.documentation.documentationurl %}{{site.documentation.documentationurl}}{% endif %}"><li class="bg-gray-50 text-gray-800 py-1 px-2 border rounded shadow text-sm font-semibold hover:bg-gray-100 "><i class="twa twa-mortar-board"></i> Documentation</li></a>
+			</ul>
+		</nav>
+		
+		<!-- header -->
+		<div class="">
+			<div class="container px-4 mx-auto">
+				<div class="grid grid-cols-1 px-20 md:grid-cols-12 gap-2 items-center">
+					<div class="col-span-6">
+						
+						<h1 class="text-4xl font-extrabold text-gray-900 sm:text-4xl md:text-5xl">Minecraft on</h1>
+						<h1 class="text-4xl font-extrabold text-blue-700 sm:text-4xl md:text-5xl">Oculus Quest </h1>
+						<p class="text-gray-800 text-base leading-relaxed mt-8 font-semibold">Qualcomm's Snapdragon powers the future of Minecraft VR.</p><br>
+						<button onClick="document.getElementById('get').scrollIntoView();" class="bg-blue-700 hover:bg-blue-800 text-white font-bold py-2 px-4 rounded-1xl">
+							Learn More <i class="twa twa-open-book"></i>
+						</button>
+						<button onClick="document.getElementById('get').scrollIntoView();" class="bg-gray-50 hover:bg-gray-200 text-blue-800 font-bold py-2 px-4 rounded-1xl">
+							Get Started <i class="twa twa-pick"></i>
+						</button>
+					</div>
+
+					<div class="col-span-6 ">
+						<img src="images/hero-ender.png">
+					</div>
+				</div>
+			</div>
+		</div>
+				
+		<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.3.5/dist/alpine.min.js" defer></script>
+		
+		<!-- One -->
+		<section class="text-center bg-gray-50">
+			<div class="container mx-auto py-10 text-blue-600">
+				
+				<div class="grid grid-cols-1 md:grid-cols-8 gap-8 items-center overflow-clip">
+					<div class="col-span-1"></div>
+					<!-- Open Source -->
+					<div class="col-span-2">
+						<i class="fab fa-github fa-2x"></i>
+						<p class="text-2xl text-center text-gray-800 font-semibold">Open Source</p>
+						<p class="text-sm text-center text-gray-400">QuestCraft is open-source and welcomes anyone to contribute on the project.</p>
+					</div>
+
+					<!-- Sodium -->
+					<div class="col-span-2">
+						<i class="fa fa-binoculars fa-2x"></i>
+						<p class="text-2xl text-center text-gray-800 font-semibold">Sodium Modifications</p>
+						<p class="text-sm text-center text-gray-400">Use Sodium with shaders to be more immersed in your world.</p>
+					</div>
+
+					<!-- Restrictions -->
+					<div class="col-span-2">
+						<i class="fas fa-running fa-2x"></i>
+						<p class="text-2xl text-center text-gray-800 font-semibold">Play Anywhere</p>
+						<p class="text-sm text-center text-gray-400">Play many minecraft servers and experience the world in real-size without restrictions.</p>
+					</div>
+					
+
+
+
+				</div>
+				
+			</div>
+		</section>
+		<!-- One End -->
+			
+		<!-- Two -->
+
+		<div class="py-20 text-center text-xs" id="get">
+			<p class="text-3xl text-gray-800 font-bold">Get QuestCraft</p>
+			<p class="text-gray-400">Coming Soon</p>
+			<div class="inline-block align-middle"><img class="h-80 object-center" src="images/notavailable.png"></div>
+				
+		</div>
+
+		<div class="py-20 text-center text-xs bg-gray-50">
+			<p class="text-3xl text-gray-800 font-bold">Development Timeline</p>
+			<p class="text-gray-400">Development timeline of the QuestCraft mod until release.</p><br>
+			
+				<div class="container px-4 mx-auto text-gray-800 py-5 px-5 border rounded-lg bg-white shadow">
+					<p class="text-gray-800 font-semibold">📢 Announcement</p>
+					<p class="text-gray-400">Hello All, time for the weekly update.
+
+						This week the git org was created (still no main repo) and the branding etc was added. 
+						
+						Naamloos has looked into Sodium and what it uses to render, according to ZNix Sodium's OpenGL calls are simple enough to port to a different renderer, what I plan to do. Naamloos had some conversation with artDev about why gl4es isn't working for the newer minecraft versions, This was caused by shaders. Naamloos is not entirely sure what kind of issues we might run into because of this, but that is something we'll stumble upon sooner or later.
+						
+						Other than that not much development has happened this week (as can happen with projects). But don't be deterred, this is normal in an opensource project as developers are not working full time on this project.
+						
+						Best regards,
+						QC Development Team </p>
+				</div>
+                
+				
+				
+		</div>
+
+		
+		<!-- Two End -->
+
+		<section class="text-center bg-gray-50">
+			<div class="container mx-auto py-20 text-blue-600 ">
+
+				<p class="text-3xl text-center text-gray-800 font-bold px-4">Community Team</p><br>
+				<div class="flex inline-flex gap-3">
+					<!-- Sodium -->
+					<div class="col-span-1">
+						<div class= "inline-flex rounded-full overflow-hidden shadow-md">
+							<img class="h-16 w-16 outline-black" src="https://cdn.discordapp.com/avatars/354059736049778708/7101641732b48476ab54da26596e0688.png?size=1024" alt="user image" />
+						</div>
+						<p class="text-sm text-center text-gray-800 font-semibold">CtrlAltDelete</p>
+						<i class="text-xs not-italic font-semibold bg-gray-50 py-1 px-2 border rounded shadow font-semibold" >📖 Lead Community Manager</i>
+					</div>
+
+					<div class="col-span-1">
+						<div class= "inline-flex rounded-full overflow-hidden shadow-md">
+							<img class="h-16 w-16 outline-black" src="https://cdn.discordapp.com/avatars/269594757410455552/56be4da55195aa2c17b251af8716857f.png?size=1024" alt="user image" />
+						</div>
+						<p class="text-sm text-center text-gray-800 font-semibold">sdpixl</p>
+						<i class="text-xs not-italic font-semibold bg-gray-50 py-1 px-2 border rounded shadow font-semibold" >📘 Admin</i>
+					</div>
+
+					
+					<div class="col-span-1">
+						<div class= "inline-flex rounded-full overflow-hidden shadow-md">
+							<img class="h-16 w-16 outline-black" src="https://cdn.discordapp.com/avatars/595628769138442250/070d609a5987046757d2cd1c142ca137.png?size=1024" alt="user image" />
+						</div>
+						<p class="text-sm text-center text-gray-800 font-semibold">Phaze</p>
+						<i class="text-xs not-italic font-semibold bg-gray-50 py-1 px-2 border rounded shadow font-semibold" >📘 Admin </i>
+					</div>
+
+					<div class="col-span-1">
+						<div class= "inline-flex rounded-full overflow-hidden shadow-md">
+							<img class="h-16 w-16 outline-black" src="https://cdn.discordapp.com/avatars/463505220966809620/a61a25c8454cefc0d52203ea3d7fcc61.png?size=1024" alt="user image" />
+						</div>
+						<p class="text-sm text-center text-gray-800 font-semibold">Hudder</p>
+						<i class="text-xs not-italic font-semibold bg-gray-50 py-1 px-2 border rounded shadow font-semibold" >📘 Admin</i>
+					</div>
+
+					<div class="col-span-1">
+						<div class= "inline-flex rounded-full overflow-hidden shadow-md">
+							<img class="h-16 w-16 outline-black" src="https://cdn.discordapp.com/avatars/455264433522868235/6539e9c2ad567bbea378b81c7efca089.png?size=1024" alt="user image" />
+						</div>
+						<p class="text-sm text-center text-gray-800 font-semibold">Watt Patty</p>
+						<i class="text-xs not-italic font-semibold bg-gray-50 py-1 px-2 border rounded shadow font-semibold" >📘 Admin</i>
+					</div>
+
+					<div class="col-span-1">
+						<div class= "inline-flex rounded-full overflow-hidden shadow-md">
+							<img class="h-16 w-16 outline-black" src="https://cdn.discordapp.com/avatars/239017684426162176/ffb1893d63d73583fa4f5c655906b5e2.png?size=1024" alt="user image" />
+						</div>
+						<p class="text-sm text-center text-gray-800 font-semibold">Agent_Everdrake</p>
+						<i class="text-xs not-italic font-semibold bg-gray-50 py-1 px-2 border rounded shadow font-semibold" >🔧 Lead Moderator </i>
+					</div>
+
+
+					<div class="col-span-1">
+						<div class= "inline-flex rounded-full overflow-hidden shadow-md">
+							<img class="h-16 w-16 outline-black" src="https://cdn.discordapp.com/avatars/766398239855345725/b7ef16919a81a426d5814055c41f6702.png?size=1024" alt="user image" />
+						</div>
+						<p class="text-sm text-center text-gray-800 font-semibold">Fish</p>
+						<i class="text-xs not-italic font-semibold bg-gray-50 py-1 px-2 border rounded shadow font-semibold" >🎨 Designer/Mod</i>
+					</div>
+
+					<div class="col-span-1">
+						<div class= "inline-flex rounded-full overflow-hidden shadow-md">
+							<img class="h-16 w-16 outline-black" src="https://cdn.discordapp.com/avatars/587712662733979705/38f324cc6df5b1f16d20323cc5b28d44.png?size=1024" alt="user image" />
+						</div>
+						<p class="text-sm text-center text-gray-800 font-semibold">Kriden</p>
+						<i class="text-xs not-italic font-semibold bg-gray-50 py-1 px-2 border rounded shadow font-semibold" >🔧 Moderator</i>
+					</div>
+
+					<div class="col-span-1">
+						<div class= "inline-flex rounded-full overflow-hidden shadow-md">
+							<img class="h-16 w-16 outline-black" src="https://cdn.discordapp.com/avatars/381932012023316502/a47f420b56bf915a4c9b1b065b472f2e.png?size=1024" alt="user image" />
+						</div>
+						<p class="text-sm text-center text-gray-800 font-semibold">Epicpixels654</p>
+						<i class="text-xs not-italic font-semibold bg-gray-50 py-1 px-2 border rounded shadow font-semibold" >🔧 Moderator</i>
+					</div>
+
+					
+					<!-- <div class="col-span-1">
+						<div class= "inline-flex rounded-full overflow-hidden shadow-md">
+							<i class="fas fa-user fa-5x h-12 w-12"></i>
+						</div>
+					</div> -->
+
+					
+
+					<!-- <div class="col-span-1">
+						<div class= "inline-flex rounded-full overflow-hidden shadow-md">
+							<i class="fas fa-user fa-5x h-12 w-12"></i>
+						</div>
+					</div>
+
+					<div class="col-span-1">
+						<div class= "inline-flex rounded-full overflow-hidden shadow-md">
+							<i class="fas fa-user fa-5x h-12 w-12"></i>
+						</div>
+					</div>
+
+					<div class="col-span-1">
+						<div class= "inline-flex rounded-full overflow-hidden shadow-md">
+							<i class="fas fa-user fa-5x h-12 w-12"></i>
+						</div>
+					</div> -->
+
+					<!-- <div class="col-span-9">
+						<p class="text-sm text-center text-gray-800 font-semibold px-4">Special Thanks</p>
+					</div>
+
+					<div class="col-span-1">
+						<div class= "inline-flex rounded-full overflow-hidden shadow-md">
+							<img class="h-20 w-20 outline-black" src="https://cdn.discordapp.com/avatars/265850815229460480/16809f7604fd624b6f1930fd88b505da.png?size=1024" alt="user image" />
+						</div>
+						<p class="text-center text-gray-800 font-semibold">TheMysticle</p>
+						<i class="text-sm not-italic font-semibold" >Media</i>
+					</div> -->
+
+				</div>
+				
+			</div>
+			<div class="container mx-auto text-blue-600 py-5">
+				<p class="text-3xl text-center text-gray-800 font-bold px-4">Developers</p><br>
+				<div class="flex inline-flex gap-3"
+				>
+					<div class="col-span-1">
+						<div class= "inline-flex rounded-full overflow-hidden shadow-md">
+							<img class="h-16 w-16 outline-black" src="https://cdn.discordapp.com/avatars/241461682176524288/0f99c94c98d33abe8534c5e22fbdb99f.png?size=1024" alt="user image" />
+						</div>
+						<p class="text-sm text-center text-gray-800 font-semibold">ZNix</p>
+						<a href=""><i class="text-xs not-italic font-semibold bg-gray-50 py-1 px-2 border rounded shadow font-semibold" ><i class=""></i>⚒️ Pojav/Renderer Editor</i></a>
+					</div>
+
+					<div class="col-span-1">
+						<div class= "inline-flex rounded-full overflow-hidden shadow-md">
+							<img class="h-16 w-16 outline-black" src="https://cdn.discordapp.com/avatars/683236803729162336/a_8615ba206661a34ca85d3644af9ed7c3.gif?size=1024" alt="user image" />
+						</div>
+						<p class="text-sm text-center text-gray-800 font-semibold">Gus</p>
+						<a href=""><i class="text-xs not-italic font-semibold bg-gray-50 py-1 px-2 border rounded shadow font-semibold" ><i class=""></i>⚒️ Programmer</i></a>
+					</div>
+
+					<div class="col-span-1">
+						<div class= "inline-flex rounded-full overflow-hidden shadow-md">
+							<img class="h-16 w-16 outline-black" src="https://cdn.discordapp.com/avatars/643070960551067648/882462d15f229f6365beca648660473a.png?size=1024" alt="user image" />
+						</div>
+						<p class="text-sm text-center text-gray-800 font-semibold">Sorenon</p>
+						<a href=""><i class="text-xs not-italic font-semibold bg-gray-50 py-1 px-2 border rounded shadow font-semibold" ><i class="link https://example.com"></i>⚒️ MCXR/OpenXR Developer</i></a>
+					</div>
+
+
+					<!--<div class="col-span-1">
+						<div class= "inline-flex rounded-full overflow-hidden shadow-md">
+							<img class="h-16 w-16 outline-black" src="https://cdn.discordapp.com/avatars/127408598010560513/cefafdd465d3bf057fca7d04c1f487d2.png?size=1024" alt="user image" />
+						</div>
+						<p class="text-sm text-center text-gray-800 font-semibold">Naamloos</p>
+						<a href=""><i class="text-xs not-italic font-semibold bg-gray-50 py-1 px-2 border rounded shadow font-semibold" ><i class="fab fa-youtube fa-1x text-red-600"></i> test</i></a>
+					</div> -->
+
+				</div>
+			</div>
+		</section>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<ul class="icons">
+				<div>
+					<a href="{{ site.baseurl }}/privacypolicy">Privacy Policy</a>
+				</div>
+				<div class="text-center inline-flex">
+					{% include svg-icons.html %}
+				</div>
+			</ul>
+			<p class="copyright">&copy; QuestCraft</p>
+			
+		</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+	</body>
+
+    
+</html>

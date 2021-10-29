@@ -1936,7 +1936,6 @@ input, select, textarea {
 	button,
 	.button {
 		background-color: transparent;
-		color: #828282 !important;
 		box-shadow: inset 0 0 0 2px #e6e6e6;
 	}
 
@@ -3141,7 +3140,6 @@ input, select, textarea {
 			.wrapper.style2 button,
 			.wrapper.style2 .button {
 				background-color: transparent;
-				color: #828282 !important;
 				box-shadow: inset 0 0 0 2px #e6e6e6;
 			}
 

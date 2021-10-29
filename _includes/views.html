@@ -1,0 +1,9 @@
+<span class="inline-flex gap-1 py-2">
+    <i data-feather="eye"> </i> <span id="views">--</span> Views
+</span>
+
+<script>
+    fetch(`https://api.countapi.xyz/hit/${'{{ site.repo }}'.replace(/\//g, 'a-a')}/${'{{ page.url }}'.replace(/\//g, 'a-a')}`).then(res => res.json()).then(data => {
+        document.getElementById('views').innerText = data.value
+    })
+</script>

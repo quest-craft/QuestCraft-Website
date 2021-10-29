@@ -1,0 +1,48 @@
+
+//
+// VARIABLES
+//
+
+// Colors
+$blue: var(--primary);
+
+// Grays
+$black: var(--black);
+$darkerGray: var(--darkerGray);
+$darkGray: var(--darkGray);
+$gray: var(--gray);
+$lightGray: var(--lightGray);
+$white: var(--white);
+
+// Font stacks
+$helvetica: Helvetica, Arial, sans-serif;
+$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$georgia: Georgia, serif;
+
+// Mobile breakpoints
+@mixin mobile {
+  @media screen and (max-width: 640px) {
+    @content;
+  }
+}
+
+:root {
+  --primary: #4183C4;
+  --black: #000;
+  --darkerGray: #222;
+  --darkGray: #333;
+  --gray: #666;
+  --lightGray: #eee;
+  --white: #fff;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --black: #fff;
+    --darkerGray: #eee;
+    --darkGray: rgb(214, 211, 211);
+    --gray: #777;
+    --lightGray: #222;
+    --white: #222;
+  }
+}

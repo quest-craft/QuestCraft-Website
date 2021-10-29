@@ -1,0 +1,11 @@
+.svg-icon {
+  display: inline-block;
+}
+
+footer a {
+  color: var(--black);
+
+  svg {
+    height: 16px;
+  }
+}

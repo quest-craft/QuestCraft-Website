@@ -1,11 +1,15 @@
 ---
-layout: questcraft-home
-title: Home
+layout: questcraft-blank
+title: News
+permalink: /news/
 ---
-<link rel="stylesheet" href="assets/css/tailwind.css"/>
+<link rel="stylesheet" href="../assets/css/tailwind.css"/>
 <div class="posts">
+  <p class="text-3xl text-gray-800 font-bold"><i class="twa twa-newspaper"></i> News</p>
+	<p class="text-gray-400">Latest news surrounding QuestCraft and MCXR.</p><br>
   {% for post in site.posts %}
-    <article class="container px-7 py-5 text-gray-800 border rounded-lg bg-white shadow text-left text-xs">
+  <div class="flex items-center justify-center py-5"></div>
+    <article class="px-7 py-5 text-gray-800 border max-w-lg rounded-lg bg-white shadow text-left text-xs">
       <div class="inline-flex text-1x1">
         Written on {{ post.date | date: "%B %e, %Y" }}
       </div>
@@ -19,11 +23,12 @@ title: Home
           
         {% endfor %}
       </div>
-      <div class="entry">
-        {{ post.excerpt }}
+      <div class="break-words py-4">
+        <p>{{ post.excerpt }}</p>
       </div>
 
       <a class="text-blue-600" href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>
+  </div>
   {% endfor %}
 </div>
