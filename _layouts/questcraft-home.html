@@ -49,7 +49,7 @@
     </style>
     <!-- NavBar -->
 
-    <nav class="flex inline-flex items-center justify-center w-full">
+    <nav class="inline-flex items-center justify-center w-full">
       <ul class="inline-flex items space-x-2 py-5">
         <a href="{{ site.baseurl }}/"
           ><li
@@ -104,18 +104,20 @@
               Playing Minecraft doesn't get more immersive.
             </p>
             <br />
-            <button
-              onClick="document.getElementById('get').scrollIntoView();"
-              class="bg-gray-50 hover:bg-gray-200 text-blue-800 font-bold py-2 px-4 rounded-1xl"
-            >
-              Get Started <i class="twa twa-pick"></i>
+
+            <button onClick="document.getElementById('get').scrollIntoView();">
+              <p
+                class="bg-gray-100 hover:bg-gray-200 text-gray-600 font-bold py-2 px-4 outline-2 outline-offset-2 outline-gray-800"
+              >
+                Get Started <i class="twa twa-pick"></i>
+              </p>
             </button>
             <button link="https://discord.gg/zVkMXSY78D">
-              <li
-                class="bg-blue-700 hover:bg-blue-800 text-white font-bold py-2 px-4 rounded-1xl"
+              <p
+                class="bg-blue-700 hover:bg-blue-800 text-white font-bold py-2 px-4"
               >
                 Learn More <i class="twa twa-open-book"></i>
-              </li>
+              </p>
             </button>
           </div>
 
@@ -181,10 +183,17 @@
 
     <div class="py-20 text-center text-xs" id="get">
       <p class="text-3xl text-gray-800 font-bold">Get QuestCraft</p>
-      <p class="text-gray-400">Coming Soon</p>
-      <div class="inline-block align-middle">
-        <img class="h-80 object-center" src="images/notavailable.png" />
-      </div>
+      <p class="text-gray-400 items-center">Coming Soon</p>
+      <div class="py-4"></div>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/QIRrVdO-DRI"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
     </div>
 
     <!-- Two End -->
@@ -195,7 +204,7 @@
           Community Team
         </p>
         <br />
-        <div class="flex inline-flex gap-3">
+        <div class="inline-flex gap-3">
           <!-- Sodium -->
           <div class="col-span-1">
             <div class="inline-flex rounded-full overflow-hidden shadow-md">
@@ -209,7 +218,7 @@
               CtrlAltDelete
             </p>
             <i
-              class="text-xs not-italic font-semibold bg-gray-50 py-1 px-2 border rounded shadow font-semibold"
+              class="text-xs not-italic bg-gray-50 py-1 px-2 border rounded shadow font-semibold"
               >👑 Community Leader</i
             >
           </div>
@@ -226,7 +235,7 @@
               sdpixl
             </p>
             <i
-              class="text-xs not-italic font-semibold bg-gray-50 py-1 px-2 border rounded shadow font-semibold"
+              class="text-xs not-italic bg-gray-50 py-1 px-2 border rounded shadow font-semibold"
               >📘 Admin</i
             >
           </div>
@@ -241,7 +250,7 @@
             </div>
             <p class="text-sm text-center text-gray-800 font-semibold">Phaze</p>
             <i
-              class="text-xs not-italic font-semibold bg-gray-50 py-1 px-2 border rounded shadow font-semibold"
+              class="text-xs not-italic bg-gray-50 py-1 px-2 border rounded shadow font-semibold"
               >📘 Admin
             </i>
           </div>
@@ -258,7 +267,7 @@
               Hudder
             </p>
             <i
-              class="text-xs not-italic font-semibold bg-gray-50 py-1 px-2 border rounded shadow font-semibold"
+              class="text-xs not-italic bg-gray-50 py-1 px-2 border rounded shadow font-semibold"
               >📘 Admin</i
             >
           </div>
@@ -275,7 +284,7 @@
               Agent_Everdrake
             </p>
             <i
-              class="text-xs not-italic font-semibold bg-gray-50 py-1 px-2 border rounded shadow font-semibold"
+              class="text-xs not-italic bg-gray-50 py-1 px-2 border rounded shadow font-semibold"
               >🛡️ Lead Moderator
             </i>
           </div>
@@ -292,7 +301,7 @@
               sortofodd
             </p>
             <i
-              class="text-xs not-italic font-semibold bg-gray-50 py-1 px-2 border rounded shadow font-semibold"
+              class="text-xs not-italic bg-gray-50 py-1 px-2 border rounded shadow font-semibold"
               >⚔️ Moderator</i
             >
           </div>
@@ -309,7 +318,7 @@
               Kriden
             </p>
             <i
-              class="text-xs not-italic font-semibold bg-gray-50 py-1 px-2 border rounded shadow font-semibold"
+              class="text-xs not-italic bg-gray-50 py-1 px-2 border rounded shadow font-semibold"
               >⚔️ Moderator</i
             >
           </div>
@@ -326,7 +335,7 @@
               Epicpixels654
             </p>
             <i
-              class="text-xs not-italic font-semibold bg-gray-50 py-1 px-2 border rounded shadow font-semibold"
+              class="text-xs not-italic bg-gray-50 py-1 px-2 border rounded shadow font-semibold"
               >⚔️ Moderator</i
             >
           </div>
@@ -343,7 +352,7 @@
               Danger
             </p>
             <i
-              class="text-xs not-italic font-semibold bg-gray-50 py-1 px-2 border rounded shadow font-semibold"
+              class="text-xs not-italic bg-gray-50 py-1 px-2 border rounded shadow font-semibold"
               >⚔️ Moderator</i
             >
           </div>
