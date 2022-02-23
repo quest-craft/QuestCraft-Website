@@ -10,10 +10,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, user-scalable=no"
     />
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css" />
-    <noscript
-      ><link rel="stylesheet" href="{{ site.baseurl }}/assets/css/noscript.css"
-    /></noscript>
+
     <link
       rel="shortcut icon"
       type="image/png"
@@ -86,8 +83,8 @@
     <!-- header -->
     <div class="">
       <div class="container px-4 mx-auto">
-        <div class="grid grid-cols-1 px-20 md:grid-cols-12 gap-2 items-center">
-          <div class="col-span-6">
+        <div class="px-20 inline-flex items-center">
+          <div class="pl-52 w-1/2">
             <h1
               class="text-4xl font-extrabold text-gray-900 sm:text-4xl md:text-5xl"
             >
@@ -105,11 +102,11 @@
             </p>
             <br />
 
-            <button onClick="document.getElementById('get').scrollIntoView();">
+            <button class="outline-2 outline-gray-800" onClick="document.getElementById('get').scrollIntoView();">
               <p
-                class="bg-gray-100 hover:bg-gray-200 text-gray-600 font-bold py-2 px-4 outline-2 outline-offset-2 outline-gray-800"
+                class="bg-gray-100 hover:bg-gray-200 text-gray-600 font-bold py-2 px-4"
               >
-                Get Started <i class="twa twa-pick"></i>
+                Get QuestCraft <i class="twa twa-pick"></i>
               </p>
             </button>
             <button link="https://discord.gg/zVkMXSY78D">
@@ -121,8 +118,8 @@
             </button>
           </div>
 
-          <div class="col-span-6">
-            <img src="images/hero-ender.png" />
+          <div class="w-1/2">
+            <img class="lg:visible md:visible sm:invisible" src="images/hero-ender.png" />
           </div>
         </div>
       </div>
@@ -183,17 +180,34 @@
 
     <div class="py-20 text-center text-xs" id="get">
       <p class="text-3xl text-gray-800 font-bold">Get QuestCraft</p>
-      <p class="text-gray-400 items-center">Coming Soon</p>
-      <div class="py-4"></div>
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/QIRrVdO-DRI"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
+
+      <p>Explanation here</p>
+      <div class="inline-flex items-center">
+        
+            <p>
+              With the button beow you can get the latest version of QuestCraft
+              from the GitHub repository.
+            </p>
+            <button link="https://discord.gg/zVkMXSY78D">
+              <p
+                class="bg-blue-700 hover:bg-blue-800 text-white font-bold py-2 px-4"
+              >
+                Get from GitHub <i class="fa-solid fa-download"></i>
+              </p>
+            </button>
+          </div>
+        </div>
+
+        <!-- <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/QIRrVdO-DRI"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe> -->
+      </div>
     </div>
 
     <!-- Two End -->
@@ -399,7 +413,7 @@
           Developers
         </p>
         <br />
-        <div class="flex inline-flex gap-3">
+        <div class="inline-flex gap-3">
           <div class="col-span-1">
             <div class="inline-flex rounded-full overflow-hidden shadow-md">
               <img
@@ -413,7 +427,7 @@
             </p>
             <a href="https://github.com/flamgop"
               ><i
-                class="text-xs not-italic font-semibold bg-gray-50 py-1 px-2 border rounded shadow font-semibold"
+                class="text-xs not-italic bg-gray-50 py-1 px-2 border rounded shadow font-semibold"
                 ><i class=""></i>⚒️ Sodium Editor</i
               ></a
             >
@@ -430,7 +444,7 @@
             <p class="text-sm text-center text-gray-800 font-semibold">Gus</p>
             <a href="https://github.com/gusbunce"
               ><i
-                class="text-xs not-italic font-semibold bg-gray-50 py-1 px-2 border rounded shadow font-semibold"
+                class="text-xs not-italic bg-gray-50 py-1 px-2 border rounded shadow font-semibold"
                 ><i class=""></i>⚒️ Pojav Editor/Dev Assurance</i
               ></a
             >
@@ -449,7 +463,7 @@
             </p>
             <a href="https://github.com/Sorenon"
               ><i
-                class="text-xs not-italic font-semibold bg-gray-50 py-1 px-2 border rounded shadow font-semibold"
+                class="text-xs not-italic bg-gray-50 py-1 px-2 border rounded shadow font-semibold"
                 ><i class="link https://example.com"></i>⚒️ MCXR/OpenXR Dev</i
               ></a
             >
@@ -468,7 +482,7 @@
             </p>
             <a href="https://github.com/ManiacGamer156"
               ><i
-                class="text-xs not-italic font-semibold bg-gray-50 py-1 px-2 border rounded shadow font-semibold"
+                class="text-xs not-italic bg-gray-50 py-1 px-2 border rounded shadow font-semibold"
                 ><i class="link https://google.com"></i>⚒️ Pojav/MCXR
                 Programmer</i
               ></a
