@@ -88,14 +88,14 @@
     <div class="">
       <div class="container px-4 mx-auto">
         <div class="px-20 inline-flex items-center">
-          <div class="pl-52 w-1/2">
+          <div class="lg:pl-52 md:pl-28 sm:pl-4 w-1/2">
             <h1
-              class="text-4xl font-extrabold text-gray-900 sm:text-4xl md:text-5xl"
+              class="text-4xl font-extrabold text-gray-900 sm:text-4xl md:text-4xl lg:text-5xl"
             >
               Minecraft on
             </h1>
             <h1
-              class="text-4xl font-extrabold text-blue-700 sm:text-4xl md:text-5xl"
+              class="text-4xl font-extrabold text-blue-700 sm:text-4xl md:text-5xl lg:text-4xl"
             >
               Oculus Quest
             </h1>
@@ -106,14 +106,17 @@
             </p>
             <br />
 
-            <button class="outline-2 outline-gray-800" onClick="document.getElementById('get').scrollIntoView();">
+            <button
+              class="border-2 border-gray-800 lg:visible md:visible sm:invisible invisible"
+              onClick="document.getElementById('get').scrollIntoView();"
+            >
               <p
                 class="bg-gray-100 hover:bg-gray-200 text-gray-600 font-bold py-2 px-4"
               >
                 Get QuestCraft <i class="twa twa-pick"></i>
               </p>
             </button>
-            <button link="https://discord.gg/zVkMXSY78D">
+            <button class="lg:visible md:visible sm:invisible invisible " link="https://discord.gg/zVkMXSY78D">
               <p
                 class="bg-blue-700 hover:bg-blue-800 text-white font-bold py-2 px-4"
               >
@@ -123,7 +126,10 @@
           </div>
 
           <div class="w-1/2">
-            <img class="lg:visible md:visible sm:invisible" src="images/hero-ender.png" />
+            <img
+              class="lg:visible md:visible sm:invisible"
+              src="images/hero-ender.png"
+            />
           </div>
         </div>
       </div>
