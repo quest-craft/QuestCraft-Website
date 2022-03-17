@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Welcome
-tags: [Welcome, Introduction, New-Look]
+title: Changelog 1.2.0
+tags: [Feature, Changelog, Update]
 ---
 
 Welcome to the new look of QuestCraft website moving away from the old clunky mess into modern flat design with many pictures of amazing steve.
