@@ -10,18 +10,18 @@ export default function Home() {
         <body class="bg-white dark:bg-gray-900">
             <Head>
                 <title>QuestCraft | Home</title>
-                <meta name="description" content="QuestCraft, utilizing MCXR and PojavLauncher, a standalone port of Minecraft: Java Edition to Oculus Quest Headsets." />
+                <meta name="description" content="QuestCraft, utilizing Vivecraft and Pojlib, a standalone port of Minecraft: Java Edition to Oculus Quest Headsets." />
                 <meta property="og:locale" content="en_US" />
                 <meta property="og:type" content="website" />
                 <meta property="og:title" content="QuestCraft | Home" />
-                <meta property="og:description" content="QuestCraft, utilizing MCXR and PojavLauncher, a standalone port of Minecraft: Java Edition to Oculus Quest Headsets." />
+                <meta property="og:description" content="QuestCraft, utilizing Vivecraft and Pojlib, a standalone port of Minecraft: Java Edition to Oculus Quest Headsets." />
                 <meta property="og:url" content="https://questcraft.org/" />
                 <meta property="og:site_name" content="QuestCraft" />
                 <link rel="canonical" href="https://questcraft.org/" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta name="twitter:url" content="https://questcraft.org/" />
                 <meta name="twitter:title" content="QuestCraft | Home" />
-                <meta name="twitter:description" content="QuestCraft, utilizing MCXR and PojavLauncher, a standalone port of Minecraft: Java Edition to Oculus Quest Headsets." />
+                <meta name="twitter:description" content="QuestCraft, utilizing Vivecraft and Pojlib, a standalone port of Minecraft: Java Edition to Oculus Quest Headsets." />
                 <meta name="twitter:card" content="summary" />
 
                 <link rel="icon" href="/favicon.ico" />
@@ -30,7 +30,7 @@ export default function Home() {
             <div class="container px-6 py-10 mx-auto text-center">
                 <div class="mx-auto">
                     <h1 class="text-3xl font-bold text-gray-800 dark:text-white lg:text-6xl">Welcome to QuestCraft</h1>
-                    <p class="mt-6 text-gray-500 text-xl dark:text-gray-300">QuestCraft, utilizing MCXR and PojavLauncher, is a standalone port of Minecraft: Java Edition to Oculus Quest Headsets.</p>
+                    <p class="mt-6 text-gray-500 text-xl dark:text-gray-300">QuestCraft, utilizing Vivecraft and Pojlib, is a standalone port of Minecraft: Java Edition to Oculus Quest Headsets.</p>
                     <div class="space-x-4">
                         <a href="https://sidequestvr.com/app/7150/" class="px-8 py-3 mt-6 inline-flex items-center justify-center text-xl font-medium leading-5 text-center text-white capitalize bg-blue-600 rounded-lg hover:bg-blue-500 lg:mx-0 lg:w-auto focus:outline-none">
                             <img src="/image/mark.webp" class="w-8" />
@@ -88,7 +88,7 @@ export default function Home() {
 
                             <h1 class="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Multiplayer</h1>
 
-                            <p class="text-gray-500 dark:text-gray-300 font-medium text-xl">Supports multiplayer playing as games are only fun when played with friends.</p>
+                            <p class="text-gray-500 dark:text-gray-300 font-medium text-xl">Supports your favorite Minecraft servers the same way as the desktop.</p>
                         </div>
 
                         <div class="flex flex-col items-center p-6 space-y-3 text-center  rounded-xl bg-gray-50 dark:bg-gray-800">
@@ -99,7 +99,7 @@ export default function Home() {
 
                             <h1 class="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Updates</h1>
 
-                            <p class="text-gray-500 dark:text-gray-300 font-medium text-xl">Regular updates and maintained software that is always up-to-date.</p>
+                            <p class="text-gray-500 dark:text-gray-300 font-medium text-xl">Constantly updated to stay up to date with the current Minecraft: Java Edition version.</p>
                         </div>
                     </div>
                 </div>
