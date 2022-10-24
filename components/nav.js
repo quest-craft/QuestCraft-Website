@@ -15,6 +15,9 @@ export const Nav = () => (
                         <a href="https://sidequestvr.com/app/7150/" class="mt-2 transition-colors duration-300 transform lg:mt-0 lg:mx-4 hover:text-gray-900 dark:hover:text-gray-200">
                             Get on SideQuest
                         </a>
+                        <a href="/support" class="mt-2 transition-colors duration-300 transform lg:mt-0 lg:mx-4 hover:text-gray-900 dark:hover:text-gray-200">
+                            Support
+                        </a>
                     </div>
 
                     <div class="flex justify-center mt-6 lg:flex lg:mt-0 lg:-mx-2">
