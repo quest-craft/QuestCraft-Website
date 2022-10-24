@@ -1,6 +1,6 @@
 export const Footer = () => (
     <footer class="bg-white dark:bg-gray-900">
-        <div class="container px-6 py-8 mx-auto">
+        <div class="container px-6 py-8 max-w-6xl mx-auto">
             <hr class="my-10 border-gray-200 dark:border-gray-700" />
 
             <div class="flex flex-col items-center sm:flex-row sm:justify-between">
