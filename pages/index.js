@@ -2,9 +2,6 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
-//import all components from the components folder
-import { Nav, Footer } from "../components";
-
 export default function Home() {
     return (
         <body class="bg-white dark:bg-gray-900">
@@ -26,7 +23,6 @@ export default function Home() {
 
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <Nav />
             <div class="container px-6 py-10 mx-auto max-w-6xl text-center">
                 <div class="mx-auto">
                     <p class="text-3xl font-bold text-gray-800 dark:text-white lg:text-5xl sm:text-xs">Welcome to QuestCraft</p>
@@ -104,8 +100,6 @@ export default function Home() {
                     </div>
                 </div>
             </section>
-
-            <Footer />
         </body>
     );
 }
