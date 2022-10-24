@@ -7,11 +7,7 @@ export const Footer = () => (
                 <p class="text-sm text-gray-400">© Copyright 2021. All Rights Reserved.</p>
 
                 <div class="flex mt-3 -mx-2 sm:mt-0">
-                    <a href="#" class="mx-2 text-sm text-gray-400 transition-colors duration-300 hover:text-gray-500 dark:hover:text-gray-300" aria-label="Reddit">
-                        Teams
-                    </a>
-
-                    <a href="#" class="mx-2 text-sm text-gray-400 transition-colors duration-300 hover:text-gray-500 dark:hover:text-gray-300" aria-label="Reddit">
+                    <a href="/privacy-policy" class="mx-2 text-sm text-gray-400 transition-colors duration-300 hover:text-gray-500 dark:hover:text-gray-300">
                         Privacy
                     </a>
                 </div>
