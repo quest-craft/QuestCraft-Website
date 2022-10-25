@@ -1,5 +1,5 @@
 export const Nav = () => (
-    <nav x-data="{ isOpen: false }" class="bg-white shadow dark:bg-gray-800">
+    <nav x-data="{ isOpen: false }" class="bg-white  dark:bg-gray-800">
         <div class="container px-6 py-4 max-w-6xl mx-auto">
             <div class="lg:flex lg:items-center">
                 <div class="flex items-center justify-between">
@@ -41,6 +41,13 @@ export const Nav = () => (
                             </svg>
                         </a>
                     </div>
+                </div>
+            </div>
+            <div class="py-4">
+                <hr />
+                {/* absolute top right */}
+                <div class="relative w-30 h-30 lg:visible sd:invisible md:invisible">
+                    <img class="absolute -top-4 -right-20 z-10 w-72 bg-transparent" src="/image/stevefalling.png" />
                 </div>
             </div>
         </div>
