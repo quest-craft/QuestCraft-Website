@@ -35,12 +35,40 @@ export default function Support() {
 
                             <hr class="border-gray-200 dark:border-gray-700" />
 
-                            <p class="p-8 text-sm text-gray-500 dark:text-gray-300">
-                                Here is a tutorial posted on our YouTube channel explaining on how to install and run QuestCraft.
+                            <p class="px-8 py-2 text-sm text-gray-500 dark:text-gray-300">
+                                Here is a tutorial posted on our YouTube channel explaining on how to install and run QuestCraft. To download QuestCraft, you can use SideQuest available at
+                                <a class="text-blue-600 font-medium px-1" href="https://sidequestvr.com/app/7150">
+                                    SideQuest Website
+                                </a>
+                                or for manual install use GitHub available at
+                                <a class="text-blue-600 font-medium px-1" href="https://github.com/QuestCraftPlusPlus/QuestCraft/releases">
+                                    Our GitHub Repository
+                                </a>
+                                .
                                 <div class="py-2">
                                     <iframe class="w-full" height="400" src="https://www.youtube.com/embed/_jU8oDQblW8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                 </div>
                             </p>
+                        </div>
+
+                        <div class="border-2 border-gray-100 rounded-lg dark:border-gray-700">
+                            <div class="flex items-center justify-between w-full p-8">
+                                <h1 class="font-semibold text-gray-700 dark:text-white">Do I need a java account to play?</h1>
+                            </div>
+
+                            <hr class="border-gray-200 dark:border-gray-700" />
+
+                            <p class="px-8 py-2 text-sm text-gray-500 dark:text-gray-300">Yes, you need a java account to play QuestCraft. You will need to purchase it from the Minecraft website and sign in with the account you bought it on.</p>
+                        </div>
+
+                        <div class="border-2 border-gray-100 rounded-lg dark:border-gray-700">
+                            <div class="flex items-center justify-between w-full p-8">
+                                <h1 class="font-semibold text-gray-700 dark:text-white">Is QuestCraft multiplayer?</h1>
+                            </div>
+
+                            <hr class="border-gray-200 dark:border-gray-700" />
+
+                            <p class="px-8 py-2 text-sm text-gray-500 dark:text-gray-300">QuestCraft supports multiplayer features allowing you to play on servers but it is not recommended to play on public servers as the AntiCheat can tag you for using QuestCraft.</p>
                         </div>
                     </div>
                 </div>
