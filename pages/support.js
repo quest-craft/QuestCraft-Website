@@ -5,6 +5,24 @@ import styles from "../styles/Home.module.css";
 export default function Support() {
     return (
         <>
+            <Head>
+                <title>QuestCraft | Support</title>
+                <meta name="description" content="QuestCraft commonly asked questions answered." />
+                <meta property="og:locale" content="en_US" />
+                <meta property="og:type" content="website" />
+                <meta property="og:title" content="QuestCraft | Support" />
+                <meta property="og:description" content="QuestCraft commonly asked questions answered." />
+                <meta property="og:url" content="https://questcraft.org/" />
+                <meta property="og:site_name" content="QuestCraft" />
+                <link rel="canonical" href="https://questcraft.org/" />
+                <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <meta name="twitter:url" content="https://questcraft.org/" />
+                <meta name="twitter:title" content="QuestCraft | Support" />
+                <meta name="twitter:description" content="QuestCraft commonly asked questions answered." />
+                <meta name="twitter:card" content="summary" />
+
+                <link rel="icon" href="/favicon.ico" />
+            </Head>
             <section class="bg-white dark:bg-gray-900">
                 <div class="container max-w-4xl px-6 py-10 mx-auto">
                     <h1 class="text-4xl font-semibold text-center text-gray-800 dark:text-white">Frequently asked questions</h1>
