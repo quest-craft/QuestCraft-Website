@@ -25,9 +25,16 @@ export default function Home() {
             </Head>
             <div class="container px-6 py-10 mx-auto max-w-6xl text-center">
                 <div class="mx-auto">
-                    <p class="text-3xl font-bold text-gray-800 dark:text-white lg:text-5xl sm:text-xs">Welcome to QuestCraft</p>
+                    <p class="text-5xl font-bold text-gray-800 dark:text-white md:text-5xl lg:text-5xl">Welcome to QuestCraft</p>
                     <p class="mt-6 text-gray-500 text-base dark:text-gray-300">QuestCraft, utilizing Vivecraft and Pojlib, is a standalone port of Minecraft: Java Edition to Oculus Quest Headsets.</p>
                     <div class=" lg:space-x-2 sm:space-y-2 ">
+                        <div class="relative invisible sd:invisible md:invisible lg:visible">
+                            <img src="image/alexbutton.png" class="w-16 absolute left-64 top-5" />
+                        </div>
+                        <div class="relative invisible sd:invisible md:invisible lg:visible">
+                            <img src="image/chicken.png" class="w-16 absolute left-3/4 top-16" title="Thanks to Reality" />
+                        </div>
+
                         <a href="https://sidequestvr.com/app/7150/" class="px-4 py-3 w-full mt-6 inline-flex items-center justify-center font-medium leading-5 text-center text-white capitalize bg-blue-600 rounded-lg hover:bg-blue-500 lg:mx-0 lg:w-auto focus:outline-none">
                             <img src="/image/mark.webp" class="w-6" />
                             <p class="mx-2">
@@ -57,6 +64,9 @@ export default function Home() {
             </div>
             <section>
                 <div class="container px-6 max-w-6xl mx-auto">
+                    <div class="relative invisible sd:invisible md:invisible lg:visible">
+                        <img src="image/cat.png" class="w-32 absolute left-20 -top-14" title="Thanks to Dusk" />
+                    </div>
                     <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-16 md:grid-cols-2 xl:grid-cols-3">
                         {/* blocks */}
                         <div class="flex flex-col items-center p-6 space-y-3 text-center  rounded-xl bg-gray-50 dark:bg-gray-800">

@@ -46,7 +46,7 @@ export const Nav = () => (
             <div class="py-4">
                 <hr />
                 {/* absolute top right */}
-                <div class="relative w-30 h-30 lg:visible sd:invisible md:invisible">
+                <div class="relative w-30 h-30 invisible sd:invisible md:invisible lg:visible">
                     <img class="absolute -top-4 -right-20 z-10 w-72 bg-transparent" src="/image/stevefalling.png" />
                 </div>
             </div>
