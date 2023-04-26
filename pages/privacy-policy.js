@@ -4,7 +4,7 @@ import styles from "../styles/Home.module.css";
 
 export default function Home() {
     return (
-        <body class="bg-white dark:bg-gray-900">
+        <body className="bg-white dark:bg-gray-900">
             <Head>
                 <title>QuestCraft | Home</title>
                 <meta name="description" content="QuestCraft, utilizing Vivecraft and Pojlib, a standalone port of Minecraft: Java Edition to Oculus Quest Headsets." />
@@ -23,13 +23,13 @@ export default function Home() {
 
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <div class="container px-6 py-10 mx-auto max-w-6xl">
+            <div className="container px-6 py-10 mx-auto max-w-6xl">
                 We have recently moved to Vercel for our web-host, because of this we are writing a new privacy policy. Vercel privacy policy can be found{" "}
-                <a class="text-blue-600" href="https://vercel.com/legal/privacy-policy">
+                <a className="text-blue-600" href="https://vercel.com/legal/privacy-policy">
                     here
                 </a>
                 . Until we have finished writing our new privacy policy, please contact us at mail@questcraft.org or at our Discord server{" "}
-                <a class="text-blue-600" href="https://discord.com/invite/zVkMXSY78D">
+                <a className="text-blue-600" href="https://discord.com/invite/zVkMXSY78D">
                     here
                 </a>
                 .
